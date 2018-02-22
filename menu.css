@@ -1,0 +1,37 @@
+#menu {
+    position: fixed;
+    left: -110px;
+    top: 50px;
+    width: 100px;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+#BGButton, #Reset, #Hide, #Show {
+    width: 100%;
+}
+
+#OpenB {
+    position: absolute;
+    width: 50px;
+    right: -50px;
+    top: 0px;
+}
+
+#CloseB {
+    position: absolute;
+    width: 50px;
+    right: -50px;
+    bottom: 0px;
+}
+
+#bg {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+    background-position: bottom;
+}
